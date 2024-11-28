@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: hsl(204, 52%, 68%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(118, 153, 218, 0.884);
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #2a2c42;
+}
+
+form label {
+    display: block;
+    margin: 8px 0;
+}
+
+button {
+    background-color: #e9e9e9;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: hsl(207, 39%, 64%);
+}
+
+#hasilDiagnosa {
+    margin-top: 20px;
+    font-weight: bold;
+}

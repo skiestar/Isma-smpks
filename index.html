@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pakar Penanggulangan Hama dan Penyakit Tanaman Cabai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistem Pakar Penanggulangan Hama dan Penyakit Tanaman Cabai</h1>
+        <p>Pilih gejala yang dialami oleh tanaman cabai Anda untuk mendapatkan solusi:</p>
+        
+        <form id="gejalaForm">
+            <label>
+                <input type="checkbox" name="gejala" value="daunKuning"> Daun menguning
+            </label>
+            <label>
+                <input type="checkbox" name="gejala" value="bercakDaun"> Bercak pada daun
+            </label>
+            <label>
+                <input type="checkbox" name="gejala" value="batangBusuk"> Batang membusuk
+            </label>
+            <label>
+                <input type="checkbox" name="gejala" value="akarBusuk"> Akar membusuk
+            </label>
+            <label>
+                <input type="checkbox" name="gejala" value="busukBuah"> Busuk pada buah
+            </label>
+            <label>
+                <input type="checkbox" name="gejala" value="ulatDaun"> Ulat pada daun
+            </label>
+            <label>
+                <input type="checkbox" name="gejala" value="jamurPutih"> Jamur putih pada batang atau akar
+            </label>
+            <label>
+                <input type="checkbox" name="gejala" value="tikus"> Serangan tikus
+            </label>
+            <label>
+                <input type="checkbox" name="gejala" value="kumbangTanduk"> Kumbang tanduk
+            </label>
+            <label>
+                <input type="checkbox" name="gejala" value="rayap"> Rayap pada akar
+            </label>
+            <button type="button" onclick="diagnosa()">Diagnosa</button>
+        </form>
+        
+        <div id="hasilDiagnosa"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
